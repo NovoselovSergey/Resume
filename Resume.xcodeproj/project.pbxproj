@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A06338922F7787400D74D65 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06338822F7787400D74D65 /* AboutMeViewController.swift */; };
+		8A06338C22F778D300D74D65 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06338B22F778D300D74D65 /* SkillsViewController.swift */; };
+		8A06338E22F778ED00D74D65 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06338D22F778ED00D74D65 /* ExperienceViewController.swift */; };
 		8A30C30F22F4C18500FA95E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30C30E22F4C18500FA95E9 /* AppDelegate.swift */; };
-		8A30C31122F4C18500FA95E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30C31022F4C18500FA95E9 /* ViewController.swift */; };
 		8A30C31422F4C18500FA95E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A30C31222F4C18500FA95E9 /* Main.storyboard */; };
 		8A30C31622F4C18800FA95E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A30C31522F4C18800FA95E9 /* Assets.xcassets */; };
 		8A30C31922F4C18800FA95E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A30C31722F4C18800FA95E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A06338822F7787400D74D65 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		8A06338B22F778D300D74D65 /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		8A06338D22F778ED00D74D65 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		8A30C30B22F4C18500FA95E9 /* Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A30C30E22F4C18500FA95E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A30C31022F4C18500FA95E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A30C31322F4C18500FA95E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A30C31522F4C18800FA95E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A30C31822F4C18800FA95E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A06338A22F778A000D74D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A30C30E22F4C18500FA95E9 /* AppDelegate.swift */,
+				8A30C31A22F4C18800FA95E9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A06338F22F778F500D74D65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A06338822F7787400D74D65 /* AboutMeViewController.swift */,
+				8A06338B22F778D300D74D65 /* SkillsViewController.swift */,
+				8A06338D22F778ED00D74D65 /* ExperienceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A06339022F7792F00D74D65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A06339122F7796A00D74D65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A30C31522F4C18800FA95E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A06339222F7797500D74D65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A30C31222F4C18500FA95E9 /* Main.storyboard */,
+				8A30C31722F4C18800FA95E9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8A30C30222F4C18500FA95E9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +101,11 @@
 		8A30C30D22F4C18500FA95E9 /* Resume */ = {
 			isa = PBXGroup;
 			children = (
-				8A30C30E22F4C18500FA95E9 /* AppDelegate.swift */,
-				8A30C31022F4C18500FA95E9 /* ViewController.swift */,
-				8A30C31222F4C18500FA95E9 /* Main.storyboard */,
-				8A30C31522F4C18800FA95E9 /* Assets.xcassets */,
-				8A30C31722F4C18800FA95E9 /* LaunchScreen.storyboard */,
-				8A30C31A22F4C18800FA95E9 /* Info.plist */,
+				8A06339022F7792F00D74D65 /* Model */,
+				8A06339222F7797500D74D65 /* View */,
+				8A06338F22F778F500D74D65 /* Controller */,
+				8A06338A22F778A000D74D65 /* Supporting Files */,
+				8A06339122F7796A00D74D65 /* Resources */,
 			);
 			path = Resume;
 			sourceTree = "<group>";
@@ -135,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A30C31122F4C18500FA95E9 /* ViewController.swift in Sources */,
+				8A06338E22F778ED00D74D65 /* ExperienceViewController.swift in Sources */,
+				8A06338922F7787400D74D65 /* AboutMeViewController.swift in Sources */,
+				8A06338C22F778D300D74D65 /* SkillsViewController.swift in Sources */,
 				8A30C30F22F4C18500FA95E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFZ44YY786;
-				INFOPLIST_FILE = Resume/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resume/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFZ44YY786;
-				INFOPLIST_FILE = Resume/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resume/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
